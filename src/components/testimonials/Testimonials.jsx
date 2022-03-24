@@ -16,24 +16,29 @@ import 'swiper/css/pagination';
 
 const data = [
   {
-    avatar: AVTR1,
-    name: 'Zubairbakay',
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae in pariataawd non dolores nesciunt consectetur commodi cum quibusdam, eum quae mollitia aut rerum unde magni excepturi cupiditate asperiores ab sunt."
+    avatar: AVTR3,
+    name: 'Miguel Capellan',
+    review: "Excellent programmer, solved all the needs of my business, in addition to the impeccable communication and understanding of the needs."
   },
   {
     avatar: AVTR2,
     name: 'Wilmer Guevara',
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae in pariataawd non dolores nesciunt consectetur commodi cum quibusdam, eum quae mollitia aut rerum unde magni excepturi cupiditate asperiores ab sunt."
+    review: "Awesome customer service, I would recommend again and again, more reviews to come. Skilled guy!."
   },
   {
     avatar: AVTR3,
-    name: 'Miguel Capellan',
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae in pariataawd non dolores nesciunt consectetur commodi cum quibusdam, eum quae mollitia aut rerum unde magni excepturi cupiditate asperiores ab sunt."
+    name: 'Zubairbakay',
+    review: "Great product he delievered me."
   },
   {
-    avatar: AVTR4,
-    name: 'Adam',
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae in pariataawd non dolores nesciunt consectetur commodi cum quibusdam, eum quae mollitia aut rerum unde magni excepturi cupiditate asperiores ab sunt."
+    avatar: AVTR2,
+    name: 'dionisiomendoza',
+    review: "Excellent understanding of algorithms, and the use in different applications"
+  },
+  {
+    avatar: AVTR3,
+    name: 'nick2693',
+    review: "Excellent understanding of the problem, he solved my homework in an excellent android application to teach children a bit of sign language initially using some illustrative images and then doing tests to improve what they learned"
   },
 ]
 

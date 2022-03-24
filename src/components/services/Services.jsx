@@ -19,32 +19,37 @@ const Service = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Managment of database.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Create beautiful interfaces.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Connect the app using RESTful Web Services.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Use of good practices of UI/UX.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Use of good practices of clean code.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Create responsive interfaces using jetpack compose or xml.</p> 
+            </li>
+
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Use of the best architecture for each project.</p> 
             </li>
           </ul>
         </article>
@@ -58,32 +63,32 @@ const Service = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Managment of database using Realm or core data</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Create apps using SwiftUI or UIKit</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Good integration with RESTful Web Services.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Use of good practices of clean code.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Focus in UI/UX.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Use of the best architecture for each project.</p> 
             </li>
           </ul>
         </article>
@@ -97,32 +102,32 @@ const Service = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Create Responsive Web Apps.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Focus in the design and details of the web page.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Focus in keep the atention of the user in the important things.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Use the last technologies for development.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Create Web Apps with scalability.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Create the Web Page using the principles of MERN.</p> 
             </li>
           </ul>
         </article>
@@ -136,32 +141,37 @@ const Service = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Focus in the desing and the details for the user.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Keep the user focused in the important things.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Make everything easier as posible for the understanding of the final user.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Focus in the use cases.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Give a responsive design to the final user.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Focus on the revelant information that the end user needs to see.</p> 
+            </li>
+
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Handling of color theory.</p> 
             </li>
           </ul>
         </article>
@@ -175,32 +185,32 @@ const Service = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Create Logos.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Create Designs according to the needs.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Handling of color theory.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Use of innovative designs.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Focus in the details.</p> 
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+              <p>Use the latest Technologies for create designs.</p> 
             </li>
           </ul>
         </article>
