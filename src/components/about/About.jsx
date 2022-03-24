@@ -21,27 +21,34 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <FaAward className='about__icon'/>
+              <FaAward className='about__icon' />
               <h5>Experience</h5>
               <small>1+ Years Working</small>
             </article>
 
             <article className='about__card'>
-              <FiUsers className='about__icon'/>
+              <FiUsers className='about__icon' />
               <h5>Clients</h5>
               <small>4+ WorldWide</small>
             </article>
 
             <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
+              <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
               <small>10+ Completed</small>
             </article>
           </div>
 
-          <p> Working with Fiverr Clients in different countries as India, England,
-              Dominican Republic and Colombia. Doing Projects for Native Android Apps
-              and some Web Pages
+          <p> I am a curious person to learn new things every day and try to be the best
+            at what I do, I am passionate about what I like. I love working with versatile
+            people and being versatile in a work team, my work is based on communication and
+            understanding of the problem to provide solutions according to what is expected.
+            I try to take my career one step at a time while enjoying the process of the path of knowledge.
+            I am passionate about native mobile development and web development and I want to take my
+            development to a large scale.
+            I have worked with Fiverr clients in different countries like India, England,
+            Dominican Republic and Colombia. making projects for native Android applications
+            and web pages
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
