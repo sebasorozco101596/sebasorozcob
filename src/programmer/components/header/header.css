@@ -7,14 +7,27 @@ header {
 
 .header__container {
     text-align: center;
+    height: 100%;
     position: relative;
-    margin-bottom: 3rem;
+    margin-bottom: 40rem;
 }
 
-.container__header  {
-    gap: 2rem;
-    align-content: center;
-    align-items: center;
+/* =============== CTA ============= */
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* =============== SCROLL DOWN ============= */
+.scroll__down {
+    position: absolute;
+    right: -7rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+    bottom: 7rem;
 }
 
 /* =============== HEADER SOCIALS ============= */
@@ -35,6 +48,14 @@ header {
     background: var(--color-primary);
 }
 
+/* =============== ME ============= */
+.me {
+    width: 80%;
+    height: 80%;
+    margin-top: 3rem;
+    margin-bottom: -40rem;
+    margin-left: 6rem;
+}
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ======= */
 @media screen and (max-width: 1024px) {
