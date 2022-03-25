@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from './Programmer/components/header/Header'
-import Nav from './Programmer/components/nav/Nav'
-import About from './Programmer/components/about/About'
-import Experience from './Programmer/components/experience/Experience'
-import Services from './Programmer/components/services/Services'
-import Portfolio from './Programmer/components/portfolio/Portfolio'
-import Testimonials from './Programmer/components/testimonials/Testimonials'
-import Contact from './Programmer/components/contact/Contact'
-import Footer from './Programmer/components/footer/Footer'
+import Header from '../programmer/components/header/Header'
+import Nav from '../programmer/components/nav/Nav'
+import About from '../programmer/components/about/About'
+import Experience from '../programmer/components/experience/Experience'
+import Services from '../programmer/components/services/Services'
+import Portfolio from '../programmer/components/portfolio/Portfolio'
+import Testimonials from '../programmer/components/testimonials/Testimonials'
+import Contact from '../programmer/components/contact/Contact'
+import Footer from '../programmer/components/footer/Footer'
 
 const ProgrammerApp = () => {
   return (
