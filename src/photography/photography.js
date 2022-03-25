@@ -26,5 +26,3 @@ const ProgrammerApp = () => {
 }
 
 export default ProgrammerApp
-
-

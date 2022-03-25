@@ -4,6 +4,7 @@ import { FiInstagram} from 'react-icons/fi'
 import { FaLinkedin } from 'react-icons/fa'
 import { BsGithub } from 'react-icons/bs'
 
+
 const Footer = () => {
   return (
     <footer>
