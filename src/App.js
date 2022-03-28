@@ -3,7 +3,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Main from './components/main'
 import Programmer from '../src/programmer/programmer'
-import Photography from '../src/programmer/programmer'
+import Photography from '../src/photography/photography'
 
 function App() {
   return (
