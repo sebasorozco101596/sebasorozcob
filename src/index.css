@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -10,6 +11,11 @@
     text-decoration: none;
 }
 
+a {
+    color: unset;
+    text-decoration: none;
+}
+
 :root {
     --color-bg: #000004ec;
     --color-bg-variant: #1d211d;
@@ -18,11 +24,23 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
-    --transition: all 400ms ease; 
+    --transition: all 400ms ease;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
+
+    /* RESTAURANT STYLES */
+    --font-base: 'Cormorant Upright', serif;
+    --font-alt: 'Open Sans', sans-serif;
+
+    --color-golden: #DCCA87;
+    --color-black: #0C0C0C;
+    --color-gray: #545454;
+    --color-crimson: #F5EFDB;
+    --color-grey: #AAAAAA;
+    --color-white: #FFFFFF;
+
 }
 
 html {
@@ -39,6 +57,13 @@ body {
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/bg-texture.png);
+}
+
+body#restaurant {
+    
+    color: black;
+    /* NEXT BODY MODIFICATIONS*/
+
 }
 
 /* ============= GENERAL STYLES ========= */
@@ -62,13 +87,13 @@ section {
     padding-top: 1rem;
 }
 
-section > h2, section > h5 {
+section>h2, section>h5 {
     text-align: center;
     color: var(--color-light);
 }
 
 
-section > h2 {
+section>h2 {
     color: var(--color-primary);
     margin-bottom: 3rem;
 }
@@ -114,6 +139,37 @@ img {
     object-fit: cover;
 }
 
+/* ============== RESTAURANT STYLES */
+
+.slide-bottom {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(-25%);
+        transform: translateY(-25%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(-25%);
+        transform: translateY(-25%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ======= */
 @media screen and (max-width: 1024px) {
     .container {
@@ -131,11 +187,11 @@ img {
         width: var(--container-width-sm);
     }
 
-    section > h2 {
+    section>h2 {
         margin-top: 0.5rem;
     }
 
-    section > h5 {
+    section>h5 {
         padding-top: 0.3rem;
     }
 }
