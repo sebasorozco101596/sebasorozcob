@@ -1,0 +1,8 @@
+
+
+@media screen and (max-width: 1150px) {
+    .restaurant__wrapper_img{
+        width: 72%;
+        height: 72%;
+    }
+}
