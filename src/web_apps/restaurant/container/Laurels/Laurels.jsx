@@ -21,7 +21,7 @@ const Laurels = () => (
       <h1 className='headtext__cormorant'>Our Laurels</h1>
 
       <div className="restaurant__laurels_awards">
-        {data.awards.map((award) => <AwardCard award={award} key={award.title}/>)};
+        {data.awards.map((award) => <AwardCard award={award} key={award.title}/>)}
       </div>
     </div>
 

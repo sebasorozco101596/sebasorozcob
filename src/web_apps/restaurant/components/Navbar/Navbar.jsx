@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className='restaurant__navbar'>
       <div className='restaurant__navbar-logo'>
-        <img src={images.gericht} alt="restaurant logo" />
+        <h1 className='headtext__cormorant'>SEBASTIÁN</h1>
       </div>
       <ul className='restaurant__navbar-links'>
         <li className='p__opensans'><a href="#home" >Home</a></li>
