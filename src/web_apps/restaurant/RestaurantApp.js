@@ -1,12 +1,11 @@
 import React from 'react';
 
+import { images} from './constants';
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
 import { Navbar } from './components';
 import './RestaurantApp.css';
 
 const RestaurantApp = () => (
-
-  <body id='restaurant'>
     <div>
       <Navbar />
       <Header />
@@ -19,7 +18,6 @@ const RestaurantApp = () => (
       <FindUs />
       <Footer />
     </div>
-  </body>
 );
 
 export default RestaurantApp;

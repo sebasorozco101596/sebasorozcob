@@ -8,7 +8,7 @@ import {useState} from 'react'
 const Nav = () => {
   const [activeNav, secActiveNav] = useState('#')
   return (
-    <nav>
+    <nav id='app'>
       <a href="#" onClick={ () => secActiveNav('#')} className= {activeNav === '#' ? 'active' : ''} > < AiOutlineHome/> </a>
       <a href="#about" onClick={ () => secActiveNav('#about')} className= {activeNav === '#about' ? 'active' : ''}> < AiOutlineUser/> </a>
       <a href="#experience" onClick={ () => secActiveNav('#experience')} className= {activeNav === '#experience' ? 'active' : ''}> < BiBook/> </a>

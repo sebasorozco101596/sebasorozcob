@@ -11,10 +11,6 @@
     text-decoration: none;
 }
 
-a {
-    color: unset;
-    text-decoration: none;
-}
 
 :root {
     --color-bg: #000004ec;
@@ -25,6 +21,7 @@ a {
     --color-light: rgba(255, 255, 255, 0.6);
 
     --transition: all 400ms ease;
+    --transition-fast: all 200ms ease;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -61,6 +58,7 @@ body {
 
 body#restaurant {
     
+    background: white;
     color: black;
     /* NEXT BODY MODIFICATIONS*/
 
@@ -103,11 +101,17 @@ section>h2 {
 }
 
 a {
+    color: unset;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+a#social {
     color: var(--color-primary);
     transition: var(--transition);
 }
 
-a:hover {
+a#social:hover {
     color: var(--color-white);
 }
 
@@ -134,7 +138,6 @@ a:hover {
 }
 
 img {
-    display: block;
     width: 100%;
     object-fit: cover;
 }
@@ -144,6 +147,11 @@ img {
 .slide-bottom {
     -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-top {
+    -webkit-animation: slide-top 0.5s cubic-bezier(0.940, 0.450, 0.460, 0.250) both;
+    animation: slide-top 0.5s cubic-bezier(0.940, 0.450, 0.460, 0.250) both;
 }
 
 @-webkit-keyframes slide-bottom {
@@ -162,6 +170,30 @@ img {
     0% {
         -webkit-transform: translateY(-25%);
         transform: translateY(-25%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(80%);
+        transform: translateY(80%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(80%);
+        transform: translateY(80%);
     }
 
     100% {
