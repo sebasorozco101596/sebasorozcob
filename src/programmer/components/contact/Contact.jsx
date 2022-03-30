@@ -17,10 +17,12 @@ const Contact = () => {
     }
   );
 
+  const { REACT_APP_EMAILJS_ID, REACT_APP_TEMPLATE_ID, REACT_APP_USER_ID } = process.env;
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_gyitk1h', 'template_4jh7zrp', form.current, 'l_q5L2r35ZAQjTHce')
+    emailjs.sendForm(REACT_APP_EMAILJS_ID, REACT_APP_TEMPLATE_ID, form.current, REACT_APP_USER_ID)
       .then((result) => {
         setNotify({
           isOpen: true,

@@ -77,10 +77,13 @@
 @media screen and (max-width: 650px) {
     .restaurant__aboutus-overlay img {
         width: 80%;
-        height: 320px;
+        height: 25%;
+        padding: 2rem;
     }
 
     .restaurant__aboutus-content_knife img {
-        height: 500px;
+        width: 105px;
+        height: 30%;
+        padding: 2rem;
     }
 }
