@@ -5,6 +5,7 @@ import Main from './components/main'
 import Programmer from '../src/programmer/programmer'
 import Photography from '../src/photography/photography'
 import RestaurantApp from './web_apps/restaurant/RestaurantApp';
+import SocialMediaApp from './web_apps/social_media/client/src/SocialMediaApp';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/programmer" element={<Programmer />} />
         <Route path="/photography" element={<Photography />} />
         <Route path="/restaurant" element={<RestaurantApp />} />
+        <Route path="/social" element={<SocialMediaApp />} />
       </Routes>
     </Router>
   );
